@@ -1,0 +1,51 @@
+\documentclass{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{titling}
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+
+\setlength{\droptitle}{-10em}   % This is your set screw (https://tex.stackexchange.com/questions/29593/shift-title-and-author-text-up) 
+
+\usepackage{indentfirst} % Make identation of first paragraphs
+
+\usepackage[margin=1.6in]{geometry}
+
+\title{Project Proposal}
+\date{October 16, 2018}
+\author{Machine Learning I \\ \\ 
+Aaron A. Gauthier and Pedro Uria Rodriguez}
+
+\begin{document}
+
+\maketitle
+
+\subsection*{Project Title}
+
+\textit{Classification of Mushrooms from the Agaricus and Lepiota Family}.
+
+\subsection*{Problem Definition}
+
+Various guides clearly state that there is no simple rule for determining the edibility of a mushroom. Using data on different features of mushrooms and classification algorithms, we plan to train a model with a high degree of confidence in order to distinguish between edible and poisonous mushrooms for two particular families (namely Agaricus and Lepiota Family). 
+
+\subsection*{Motivation}
+
+We realized that many people in the USA do not know the difference between an edible mushroom and a poisonous one. We hope that through this project we can help educate people on the top significant features that determine whether a mushroom is safe for ingestion or not. We hope this will help save lives and avoid tragedy, especially with children who are curious.
+
+\subsection*{Method}
+
+Data Preprocessing $\longrightarrow$ Model Learning $\longrightarrow$ Model Testing, Understanding and Refining $\longrightarrow$ Comparison between different models $\longrightarrow$ Finding common poisonous traits. \\
+
+The models will include, but are not be limited to: Logistic Regression, Random Forests, K-Nearest Neighbors and Naive Bayes, all of which are present in the \textit{scikit-learn} package for \textit{Python}. We will be using this library, along with \textit{pandas}, \textit{numpy}, \textit{seaborn}, \textit{matplotlib} and other potential ones. We will write our code on Jupyter Notebooks, and use Skype, Slack, GitHub, Dropbox, email and in-person consultations.
+
+\subsection*{Link to the Data}
+
+UCI Machine Learning Repository: \url{https://archive.ics.uci.edu/ml/datasets/mushroom} \\
+
+Mushroom Data and MetaData: \sloppy\url{https://archive.ics.uci.edu/ml/machine-learning-databases/mushroom}
+
+\subsection*{Responsibility of Team Members}
+
+Duties of each team member will include coding, review of coding, strategy, execution, and write-ups. Duties of each team member are a shared responsibility in all facets of the project. 
+
+
+\end{document}
