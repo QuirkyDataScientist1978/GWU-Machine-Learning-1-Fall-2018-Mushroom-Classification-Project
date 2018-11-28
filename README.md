@@ -45,31 +45,31 @@ Proposed Methods.    We will be using the following model classifiers:
 
 Packages.     We utilized the following packages:
 
-%matplotlib inline
-import numpy as np 
-import pandas as pd
-import matplotlib.pyplot as plt
-import warnings
-warnings.filterwarnings("ignore") 
-from sklearn.impute import SimpleImputer
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
-from sklearn.pipeline import Pipeline
-from sklearn.model_selection import GridSearchCV
-from sklearn.model_selection import StratifiedKFold
-from sklearn.linear_model import LogisticRegression
-from sklearn.feature_selection import RFE
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import RandomForestRegressor
-from pydotplus import graph_from_dot_data
-from sklearn.tree import export_graphviz
-from IPython.display import Image
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.svm import SVC
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.naive_bayes import GaussianNB
-from sklearn.cluster import KMeans
-from sklearn.metrics import confusion_matrix
+1.  %matplotlib inline
+2.  import numpy as np 
+3.  import pandas as pd
+4.  import matplotlib.pyplot as plt
+5.  import warnings
+6.  warnings.filterwarnings("ignore") 
+7.  from sklearn.impute import SimpleImputer
+8.  from sklearn.model_selection import train_test_split
+9.  from sklearn.preprocessing import LabelEncoder
+10. from sklearn.pipeline import Pipeline
+11. from sklearn.model_selection import GridSearchCV
+12. from sklearn.model_selection import StratifiedKFold
+13. from sklearn.linear_model import LogisticRegression
+14. from sklearn.feature_selection import RFE
+15. from sklearn.tree import DecisionTreeClassifier
+16. from sklearn.ensemble import RandomForestRegressor
+17. from pydotplus import graph_from_dot_data
+18. from sklearn.tree import export_graphviz
+19. from IPython.display import Image
+20. from sklearn.ensemble import RandomForestClassifier
+21. from sklearn.svm import SVC
+22. from sklearn.neighbors import KNeighborsClassifier
+23. from sklearn.naive_bayes import GaussianNB
+24. from sklearn.cluster import KMeans
+25. from sklearn.metrics import confusion_matrix
 
 It is strongly encouraged that these models only be used to aid expertise (domain knowledge) of whether a mushroom is edible or poisonous. Expertise should almost always override data/models, especially when identifying potentially dangerous foods like mushrooms. Even though there is high confidence in our models, experts may have made mistakes in gathering the data – as they are human and prone to make mistakes. Lastly due to the ethics and legal considerations of following a model blindly should also be considered. Make no mistake domain knowledge of trained experts should always be adhered to vice a highly accurate prediction model. Better to err on the side of caution than to be wrong! 
 
