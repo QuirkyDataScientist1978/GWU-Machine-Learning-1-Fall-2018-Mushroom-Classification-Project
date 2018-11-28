@@ -1,5 +1,4 @@
-# GWU-Machine-Learning-1-Fall-2018-Mushroom-Classification-Project
-Mushroom Classification Machine Learning Project
+# Mushroom Classification Machine Learning Project
 
 This is a repository for a machine learning approach to mushroom classification, which was our project for the Machine Learning I class on the Master of Science in Data Science at GWU. All the code is on `mushrooms.ipynb`, which utilizes the following modules:
 
